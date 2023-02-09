@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int Start = 100;
-        int Popolnenie = 2000;
+        int balance = 100;
+        int deposit = 2000;
 
-        int bonus = Popolnenie >= 1000 ? Popolnenie / 100 : 0;
+        int bonus = deposit >= 1000 ? deposit / 100 : 0;
 
         System.out.println("Бонусов: " + bonus);
-        System.out.println("Сумма на счету: " + (Start + Popolnenie));
+        System.out.println("Сумма на счету: " + (balance + deposit));
 
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
